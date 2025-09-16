@@ -14,4 +14,7 @@ impl Team {
             ..Default::default()
         }
     }
+    pub fn name(&self) -> &String {
+        &self.name
+    }
 }

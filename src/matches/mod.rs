@@ -16,6 +16,7 @@ struct Stats {
     yellow_cards: u8,
     red_cards: u8,
     offsides: u8,
+    match_num: u16,
     result: MatchResult,
 }
 
